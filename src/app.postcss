@@ -1,0 +1,22 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box {
+	@apply border rounded-md p-3 dark:bg-gray-900 dark:border-gray-800 bg-gray-50 shadow-md;
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	src: url('/fonts/RobotoCondensed-Regular.ttf');
+}
+
+* {
+	font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+}
+
+.tl{
+	@apply text-gray-500 dark:text-gray-400
+}
